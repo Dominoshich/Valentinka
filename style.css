@@ -48,18 +48,18 @@ body {
 }
 
 .buttons {
-    width: 365px;
+    width: 355px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    margin-right: 20px;
     margin-left: 20px;
     /* optional: adds some space between the buttons */
 }
 
 .btn {
-    width: 200px;
+    width: 170px;
     height: 100px;
     background-color: deeppink;
     color: white;
@@ -78,7 +78,7 @@ body {
     background-color: #FAF9F6;
 }
 .btn2 {
-    width: 200px;
+    width: 170px;
     height: 100px;
     background-color: deeppink;
     color: white;
@@ -112,7 +112,7 @@ img {
 
 @media screen and (max-width: 478px) {
 .text{
-    width: 377px;
+    width: 340px;
     height: 220px;
 }
 
