@@ -72,11 +72,25 @@ body {
     border: none;
     border-radius: 12px;
     transition: background-color 0.3s ease;
-
 }
 
 .btn:hover {
     background-color: #FAF9F6;
+}
+.btn2 {
+    width: 200px;
+    height: 100px;
+    background-color: deeppink;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 50px;
+    margin: 40px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
 }
 
 .gif_container {
