@@ -16,7 +16,7 @@
         </div>
         <div class = "buttons">
             <button class="btn" id = "yesButton" onclick="nextPage()">Уряяяяяяяяяяя</button>
-            <button class="btn" id="noButton" onmouseover="moveButton()">Не уря:(</button>
+            <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">Не уря:(</button>
             <script>
                 function nextPage() {
                     window.location.href = "yes.html";
@@ -25,6 +25,16 @@
                 function moveButton() {
                     let x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth);
                     let y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight);
+                    let m = document.getElementById('noButton').getBoundingClientRect().x;
+                    let n = document.getElementById('noButton').getBoundingClientRect().y;
+                    document.getElementById('noButton').style.transition = `0.5s`;
+                    document.getElementById('noButton').style.position = `absolute`;
+
+                    document.getElementById('noButton').style.left = `${m}px`;
+                    document.getElementById('noButton').style.top = `${n}px`;
+                    document.getElementById('noButton').style.transition = `0.5s`;
+                    document.getElementById('noButton').style.transition = `0.5s`;
+                    
                     document.getElementById('noButton').style.left = `${x}px`;
                     document.getElementById('noButton').style.top = `${y}px`;
                 }
